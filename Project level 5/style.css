@@ -1,0 +1,39 @@
+.background-image{
+    background-image: url("bookshop.jpeg");
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.service{
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+.service .fas{
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+.service:hover{
+    background-color:rgb(14, 179, 255);
+    color: aliceblue;
+    border:0px;
+}
+.footer{
+    margin-top: 30px;
+    background-color: #c0d5fe;
+    padding: 40px;
+}
+.footer a{
+    text-decoration: none;
+}
+.bannertext{
+    font-family: fcursive;
+    color: dodgerblue;
+}
+.card-title{
+    text-transform: capitalize;
+}
